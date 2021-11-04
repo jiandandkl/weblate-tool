@@ -1,0 +1,21 @@
+{
+  "name": "weblate-tool",
+  "version": "0.0.1",
+  "description": "国际化文案的拉取和上传",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "emolingzhu@126.com",
+  "license": "ISC",
+  "devDependencies": {},
+  "bin": {
+    "weblate-tool-upload": "bin/upload.js",
+    "weblate-tool-fetch": "bin/fetch.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.0.0",
+    "ora": "^5.4.1",
+    "commander": "^2.20.3"
+  }
+}
